@@ -1,0 +1,6 @@
+/* Example: Override nav background */
+
+.navbar-default-custom {
+  @extend .navbar-default;
+  background-color: $nav_background;
+}
