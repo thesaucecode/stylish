@@ -1,8 +1,8 @@
-// Bootstrap scss import
-@import "bootstrap/bootstrap";
-
 // Theme common imports
 @import "imports/variables.import";
+
+// Bootstrap scss import
+@import "bootstrap/bootstrap";
      
 // Third party styling overrides
 @import "third-party-overrides/chosen";

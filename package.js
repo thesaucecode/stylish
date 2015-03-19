@@ -1,7 +1,7 @@
 Package.describe({
   name: "stylish",
   summary: "thesaucecode stylying package, load order controlled once, in once place",
-  version: "0.0.1"
+  version: "0.0.2"
 });
 
 Package.onUse(function (api) {
@@ -100,7 +100,7 @@ Package.onUse(function (api) {
 
   api.addFiles([
     // Bottelio theme common imports
-    'client/imports/variables.import.scss',     
+    'client/imports/_variables.import.scss',     
 
      // Third party styling overrides
     'client/third-party-overrides/_chosen.scss',
