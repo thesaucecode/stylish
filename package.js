@@ -101,6 +101,7 @@ Package.onUse(function (api) {
   api.addFiles([
     // Bottelio theme common imports
     'client/imports/_variables.import.scss',     
+    'client/imports/_mixins.import.scss',     
 
      // Third party styling overrides
     'client/third-party-overrides/_chosen.scss',
